@@ -6,7 +6,7 @@ body {
 }
 
 /* Estilo para a lista de navegação */
-ul {
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -15,7 +15,7 @@ ul {
 }
 
 /* Estilo para os links de navegação */
-ul li a {
+nav ul li a {
     text-decoration: none;
     color: blue;
 }
@@ -32,13 +32,7 @@ header img {
 }
 
 /* Estilo para o título principal */
-header h1 {
-    text-align: center;
-    margin-top: 0;
-}
-
-/* Estilo para o subtítulo */
-header h2 {
+header h1, header h2 {
     text-align: center;
     margin-top: 0;
 }
@@ -48,3 +42,4 @@ section {
     padding: 20px;
     text-align: justify;
 }
+
